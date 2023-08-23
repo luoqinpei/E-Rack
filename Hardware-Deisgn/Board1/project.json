@@ -1,0 +1,871 @@
+{
+  "schematics": {
+    "bad398d786ef49349533108fa5f91bd4": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "f71c3dce0f844dd494be5e202dc30215"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "7c19de2d858a49d4a0165ac812b93920": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "25c8d2513dd748c3a74590bd1641d234": {
+      "source": "1433143aabd44afeb99d4def747c6478|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排母\"]",
+      "title": "PM254-1-15-Z-8.5",
+      "version": "1673055614",
+      "type": 2
+    },
+    "4a62bb8c061749f1b0870ba902301eea": {
+      "source": "411ba3cbf1ec4b4396c9e97c70a45d46|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排母\"]",
+      "title": "KH-2.54FH-1X8P-H8.5",
+      "version": "1673046304",
+      "type": 2
+    },
+    "bdc17739f01d46fe90667d655c5c0f3a": {
+      "source": "77ef2a0f689c42309b6f2c668fcf3542|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "10KΩ (1002) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"电阻\",\"贴片电阻\"]",
+      "title": "0805W8F1002T5E",
+      "version": "1672215903",
+      "type": 2
+    },
+    "94591a44d1814925a799c60d9e1d8992": {
+      "source": "df67c80a44f9412ca5c2c3818a16a660|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"按键/开关\",\"拨码开关\"]",
+      "title": "DSHP03TS-S",
+      "version": "1681878306",
+      "type": 2
+    },
+    "0fa34d67649245caa8a3d6a1c23ac14c": {
+      "source": "79e9fcc22e9149adb201bd5fd00e4442|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"螺钉式接线端子\"]",
+      "title": "DB302-5.0-2P-GN-S",
+      "version": "1672990810",
+      "type": 2
+    },
+    "e6a930d390bc4d22bb2798a9aa5e186d": {
+      "source": "99c54fdd064b4a418408cbaadc979dc0|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排针\"]",
+      "title": "PZ254V-11-03P_C2937625",
+      "version": "1672877106",
+      "type": 2
+    },
+    "cd13b550e0664039be3a700ddb8660d6": {
+      "source": "2bbf606fca8e403f8d22a9186e00e103|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "LED",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"光耦/LED/数码管/光电器件\",\"发光二极管/LED\"]",
+      "title": "FC-2012HRK-620D",
+      "version": "1681871713",
+      "type": 2
+    },
+    "28b9d28e14f246c3bf84ed9a62ce4e5a": {
+      "source": "25c6fe9a817d48239557bf01f8bd4033|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100uF 35V ±20%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"电容\",\"贴片型铝电解电容\"]",
+      "title": "RVT1V101M0607",
+      "version": "1678091745",
+      "type": 2
+    },
+    "57e66e9492b349a2be636c352d7c5d3b": {
+      "source": "542d01b8b25e4236a453d7437c3944df|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1642995718",
+      "type": 18
+    },
+    "b5d9071f90f34e42a579cfe30bf22e01": {
+      "source": "c1b8b751a29345708c24bcef9a67e2b3|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-VCC",
+      "version": "1659060554",
+      "type": 18
+    },
+    "7bfb5247ddd24878810cf169268f7e23": {
+      "source": "8a04e22374494d55957a030ec33de1cb|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "5-Voltage",
+      "version": "1656577930",
+      "type": 18
+    },
+    "a30bda512ed34af6822868f59010a95b": {
+      "source": "350b2c5dc74942068004d202929c383c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排针\"]",
+      "title": "PZ254V-11-04P_C2691448",
+      "version": "1672854929",
+      "type": 2
+    },
+    "0cbd7e6a6a11477f9e1b2cb05872c0e4": {
+      "source": "44c11d0786014d6899536957a40c2b1a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排针\"]",
+      "title": "PZ254V-11-01P",
+      "version": "1673103017",
+      "type": 2
+    },
+    "ed7655cdec624085b9672ecfb6d0cccf": {
+      "source": "5967c34a65f442cb838dfa3df91f1a33|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"线对板/线对线连接器\"]",
+      "title": "HX25003-4A",
+      "version": "1673132714",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "6a8c61a72818422ba98a4ae896062471": {
+      "title": "HDR-TH_15P-P2.54-V-F",
+      "source": "cef5de2008314166989a21ef51751cfc|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1658306995",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "cb4ee73291c04d2b814d75ba754e95eb": {
+      "title": "HDR-TH_8P-P2.54-V-F",
+      "source": "b7c4b7552e0b4a3ea0ce0b3ecdec9181|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1650537204",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "afad7a1917244156a0fd6124191ecc9c": {
+      "title": "R0805",
+      "source": "6cfdf2d0c1ca4752bd1a0125f55b71e9|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1667381300",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "a2698ba46b6549c5b9b284ff93d41b96": {
+      "title": "SW-SMD_DSHP03TS-S",
+      "source": "87e6f9c4fed84fceadc04f6192b26cbd|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1611885461",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SW-SMD\"]"
+    },
+    "23f11955d8464295bfbf507de3c5850c": {
+      "title": "CONN-TH_DB302-5.0-2P",
+      "source": "37829dad51ce401fa4534c0428288166|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654497770",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-TH\"]"
+    },
+    "9c2673bbdc0b48e9b0e9e2f59482bc79": {
+      "title": "HDR-TH_3P-P2.54-V-M",
+      "source": "c3d82bacc07f4aa18ec3291422b5896d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651895109",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "f783e0eafae64c10ae107252bf03250a": {
+      "title": "LED0805-RD_RED",
+      "source": "02f36eaf55f14a77a6aca359bd3efeab|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1650253292",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED0805\"]"
+    },
+    "b6bab6301ef742838351ab3a89eaad73": {
+      "title": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+      "source": "f2cfcefe880841b4a5348c62efb1c770|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1650334098",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "d1e5f7f5e3914a13b86b7c1f40b3d3e9": {
+      "title": "HDR-TH_4P-P2.54-V-M",
+      "source": "55a1ecf332f24bc1b8208f936e198213|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665378101",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "22889abaed204c29bd3c4a8c44fb3280": {
+      "title": "HDR-TH_1P-P2.54-V-M",
+      "source": "6bf537dce1fa41748a07f7304c454e13|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1668681153",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "fffd1f17b77c44d4bc7b0831cac94d01": {
+      "title": "CONN-TH_4P-P2.50_HX25003-4A",
+      "source": "f62e2dce92064edfb9eaa52de5200762|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651888976",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-TH\"]"
+    }
+  },
+  "devices": {
+    "ec9431e66c6a446596e5c90061fe67ef": {
+      "title": "PM254-1-15-Z-8.5",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 1x15P",
+        "Supplier Part": "C2897378",
+        "Manufacturer": "HCTL(华灿天禄)",
+        "Manufacturer Part": "PM254-1-15-Z-8.5",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210927/A587EC018F0ED68DBE3C69C90D2D513F.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "25c8d2513dd748c3a74590bd1641d234",
+        "Designator": "U?",
+        "Footprint": "6a8c61a72818422ba98a4ae896062471",
+        "3D Model": "38ff91cb466b435b8c8f2ba8086ca4a0",
+        "3D Model Title": "HDR-TH_15P-P2.54-V-F",
+        "3D Model Transform": "1515.745,98.425,0,0,0,0,0,0,-125.984",
+        "Number of Rows": "单排",
+        "Number of Holes": "15",
+        "Pitch": "2.54mm",
+        "Holes Structure": "1x15P",
+        "Row Spacing": "-",
+        "Mounting Type": "直插",
+        "Circular Hole / Square Hole": "方孔",
+        "Current Rating (Max)": "3A",
+        "Voltage Rating (Max)": "-",
+        "Holes Direction": "顶部",
+        "Insulation Height": "8.5mm",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:单排;总孔位数:15;间距:2.54mm;插孔结构:1x15P;行距:-;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:-;插孔方向:顶部;塑高:8.5mm;工作温度范围:-40℃~+105℃;"
+      },
+      "description": "排数:单排;总孔位数:15;间距:2.54mm;插孔结构:1x15P;行距:-;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:-;插孔方向:顶部;塑高:8.5mm;工作温度范围:-40℃~+105℃;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20211018/D4C5CA2C16484EBDAF397A636DBAFC71.jpg"
+      ],
+      "source": "b2f692c9df574f44acf27424ca96dcd4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655223607",
+      "custom_tags": "[\"连接器\",\"排母\"]"
+    },
+    "ffd2c0915c094ed8b8ddf905bc417d84": {
+      "title": "KH-2.54FH-1X8P-H8.5",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 1x8P",
+        "Supplier Part": "C2905417",
+        "Manufacturer": "kinghelm(金航标)",
+        "Manufacturer Part": "KH-2.54FH-1X8P-H8.5",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211019/4EE60A4A588681C04A5AE3F1D2563204.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "4a62bb8c061749f1b0870ba902301eea",
+        "Designator": "U?",
+        "Footprint": "cb4ee73291c04d2b814d75ba754e95eb",
+        "3D Model": "dc7b6aa058184599965f5adac539132f",
+        "3D Model Title": "HDR-TH_8P-P2.54-F-LI-1X8P",
+        "3D Model Transform": "815.746,94.488,0,0,0,0,0,0,-118.11",
+        "Number of Rows": "单排",
+        "Number of Holes": "8",
+        "Pitch": "2.54mm",
+        "Holes Structure": "1x8P",
+        "Row Spacing": "-",
+        "Mounting Type": "直插",
+        "Circular Hole / Square Hole": "方孔",
+        "Current Rating (Max)": "3A",
+        "Voltage Rating (Max)": "-",
+        "Holes Direction": "顶部",
+        "Insulation Height": "8.5mm",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:单排;总孔位数:8;间距:2.54mm;插孔结构:1x8P;行距:-;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:-;插孔方向:顶部;塑高:8.5mm;工作温度范围:-40℃~+105℃;"
+      },
+      "description": "排数:单排;总孔位数:8;间距:2.54mm;插孔结构:1x8P;行距:-;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:-;插孔方向:顶部;塑高:8.5mm;工作温度范围:-40℃~+105℃;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20211021/0843F725C1AA882E3041063991A96CC1.jpg"
+      ],
+      "source": "6cd9031b0487463c96695d144c1ce7f3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654895196",
+      "custom_tags": "[\"连接器\",\"排母\"]"
+    },
+    "1aa7c42423c547c8bf5c38f8f3fc4be0": {
+      "title": "0805W8F1002T5E_C17414",
+      "attributes": {
+        "LCSC Part Name": "10kΩ ±1% 125mW",
+        "Supplier Part": "C17414",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0805W8F1002T5E",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "bdc17739f01d46fe90667d655c5c0f3a",
+        "Designator": "R?",
+        "Footprint": "afad7a1917244156a0fd6124191ecc9c",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Type": "厚膜电阻",
+        "Value": "10kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Overload Voltage (Max)": "150V",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:125mW;"
+      },
+      "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:125mW;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221228/9FAC57B04CBA608011C05FA2B3C494C9.jpg"
+      ],
+      "source": "e9c34dedae26495c91dced1a655b8614|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1658348574",
+      "custom_tags": "[\"电阻\",\"贴片电阻\"]"
+    },
+    "d37be62a27924715b8cf613c5d0ba412": {
+      "title": "DSHP03TS-S",
+      "attributes": {
+        "LCSC Part Name": "间距1.27mm 平拨,凹槽式 3位拨码开关",
+        "Supplier Part": "C319051",
+        "Manufacturer": "XKB Connectivity(中国星坤)",
+        "Manufacturer Part": "DSHP03TS-S",
+        "Supplier Footprint": "SMD-6P,5.4x5.4mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211009/11BE85C99D2C85B0991AF4F9D6EB8BDE.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "94591a44d1814925a799c60d9e1d8992",
+        "Designator": "SW?",
+        "Footprint": "a2698ba46b6549c5b9b284ff93d41b96",
+        "3D Model": "3e551cd659c544bea70454df36d533c8",
+        "3D Model Title": "SW-SMD_6P-L5.4-W5.4-H2.3-LS8.4-P1.27",
+        "3D Model Transform": "212.9917,328.7395,0,180,0,0,0.197,0.005,0",
+        "Type": "平拨，凹槽式",
+        "Current Rating": "25mA",
+        "Voltage Rating": "24V",
+        "Circuit": "单刀单掷",
+        "Number of Positions": "3",
+        "Pin Style": "鸥翼型",
+        "Lead Pitch": "1.27mm",
+        "Operating Temperature": "-20℃~+70℃",
+        "Operating Life": "3千次",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "类型:平拨，凹槽式;额定电流:25mA;额定电压:24V;电路结构:单刀单掷;开关位数:3;使用寿命:3千次;颜色:黑色;"
+      },
+      "description": "类型:平拨，凹槽式;额定电流:25mA;额定电压:24V;电路结构:单刀单掷;开关位数:3;使用寿命:3千次;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230109/4308E083E25F8FA23EE8E2DA0EFA063B.jpg"
+      ],
+      "source": "dd131adc13204a10958bd80b7839953f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655410867",
+      "custom_tags": "[\"按键/开关\",\"拨码开关\"]"
+    },
+    "2e80cfe0bbcd4f45be1a30b12322a3d4": {
+      "title": "DB302-5.0-2P-GN-S",
+      "attributes": {
+        "LCSC Part Name": "2P P=5mm",
+        "Supplier Part": "C2997275",
+        "Manufacturer": "DIBO(地博电气)",
+        "Manufacturer Part": "DB302-5.0-2P-GN-S",
+        "Supplier Footprint": "P=5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220418/F63E4822E301FF035E2D9136E480A4B5.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "0fa34d67649245caa8a3d6a1c23ac14c",
+        "Designator": "U?",
+        "Footprint": "23f11955d8464295bfbf507de3c5850c",
+        "3D Model": "df5441fe2d434e0787977ea60767a91c",
+        "3D Model Title": "CONN-TH_DB302-5.0-2P",
+        "3D Model Transform": "427.9519,354.33,0,0,0,0,16.727,0.827,-157.48",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20220425/47BB3AFEEB3F158E9675857BF3D63B46.jpg"
+      ],
+      "source": "ea634e06a8fb4f018737f8913a6c396b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655151693",
+      "custom_tags": "[\"连接器\",\"螺钉式接线端子\"]"
+    },
+    "dd97d5a7a72745aead705d2484f804a4": {
+      "title": "PZ254V-11-03P",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 1x3P 直插 方针",
+        "Supplier Part": "C2937625",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "PZ254V-11-03P",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200309/C492402_8335C3D49C4E4C618838D59BB1D024C1.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e6a930d390bc4d22bb2798a9aa5e186d",
+        "Designator": "H?",
+        "Footprint": "9c2673bbdc0b48e9b0e9e2f59482bc79",
+        "3D Model": "bb473b6d38ff42a99216a4fcdbdcc4cb",
+        "3D Model Title": "HDR-TH_3P-P2.54-M-LI-1X3P",
+        "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+        "Number of Rows": "单排",
+        "Number of Pins": "3",
+        "Pitch": "2.54mm",
+        "Pin Structure": "1x3P",
+        "Row Spacing": "-",
+        "Mounting Type": "直插",
+        "Circluar Pins/Square Pins": "方针",
+        "Current Rating (Max)": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:单排;总PIN位数:3;间距:2.54mm;插针结构:1x3P;行距:-;安装类型:直插;圆针/方针:方针;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;工作温度范围:-40℃~+105℃;颜色:黑色;"
+      },
+      "description": "排数:单排;总PIN位数:3;间距:2.54mm;插针结构:1x3P;行距:-;安装类型:直插;圆针/方针:方针;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;工作温度范围:-40℃~+105℃;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20211229/11B7A2194E699A6336C1DB04B352F9AC.jpg"
+      ],
+      "source": "a7c65807c5894564893a45460053a26d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654896337",
+      "custom_tags": "[\"连接器\",\"排针\"]"
+    },
+    "520976416d6345398c8011b76da9f5a5": {
+      "title": "NCD0805R1",
+      "attributes": {
+        "LCSC Part Name": "红灯",
+        "Supplier Part": "C84256",
+        "Manufacturer": "国星光电",
+        "Manufacturer Part": "NCD0805R1",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200820/C84256_F0A75A43B3EAD75808600A0514C76B99.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "cd13b550e0664039be3a700ddb8660d6",
+        "Designator": "LED?",
+        "Footprint": "f783e0eafae64c10ae107252bf03250a",
+        "3D Model": "9e1095fac56a47ba900124c2261595bd",
+        "3D Model Title": "LED0805-RD_RED",
+        "3D Model Transform": "79.527,49.2125,0,0,0,0,0,0,0",
+        "Emitted Color": "红灯",
+        "Name": "={Manufacturer Part}",
+        "Description": "发光颜色:红灯;"
+      },
+      "description": "发光颜色:红灯;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/21C97868DBDEE640E7C1EF76BF956B5F.jpg"
+      ],
+      "source": "65165b87e36a420bb0f83c56de791b8f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1680418803",
+      "custom_tags": "[\"光耦/LED/数码管/光电器件\",\"发光二极管/LED\"]"
+    },
+    "ecc574ffbbda40afa26146c02003e5d8": {
+      "title": "RVT1V101M0607",
+      "attributes": {
+        "LCSC Part Name": "100uF ±20% 35V",
+        "Supplier Part": "C72478",
+        "Manufacturer": "ROQANG(容强)",
+        "Manufacturer Part": "RVT1V101M0607",
+        "Supplier Footprint": "SMD,D6.3xL7.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170217/1487312282384.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "28b9d28e14f246c3bf84ed9a62ce4e5a",
+        "Designator": "C?",
+        "Footprint": "b6bab6301ef742838351ab3a89eaad73",
+        "3D Model": "4a341388e7b34cb7b0bbc1bc8ba36d45",
+        "3D Model Title": "CAP-SMD_BD6.3-L6.6-W6.6-H7.7",
+        "3D Model Transform": "275.59,259.842,0,0,0,0,0,0,0",
+        "Value": "100uF",
+        "Tolerance": "±20%",
+        "Rated Voltage": "35V",
+        "φD": "6.3mm",
+        "L": "7.7mm",
+        "Ripple Current": "-",
+        "Equivalent Series Resistance(ESR)": "-",
+        "Lifetime @ Temp": "2000hrs@105℃",
+        "Operating Temperature": "-45℃~+105℃",
+        "Name": "={Value}",
+        "Description": "容值:100uF;精度:±20%;额定电压:35V;纹波电流:-;等效串联电阻:-;"
+      },
+      "description": "容值:100uF;精度:±20%;额定电压:35V;纹波电流:-;等效串联电阻:-;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221230/A0C837DC537F8CD2A5298E95E3447BCC.jpg"
+      ],
+      "source": "f4caf02936254988bb33687e960f803b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657868453",
+      "custom_tags": "[\"电容\",\"贴片型铝电解电容\"]"
+    },
+    "e831bb1c8ce642de941328a1e376c86c": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "57e66e9492b349a2be636c352d7c5d3b"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "9a64ac5790a940f7ae40fc736dc6faff|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1635931210",
+      "custom_tags": "[]"
+    },
+    "16f477063107417cab1bb36c8159f214": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Symbol": "b5d9071f90f34e42a579cfe30bf22e01",
+        "Global Net Name": "VCC",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "b381658129d94456b54f23250ef5a375|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1659060554",
+      "custom_tags": "[]"
+    },
+    "0dd72cfb4619422f94f15337ccca8efa": {
+      "title": "Power-5V",
+      "attributes": {
+        "Symbol": "7bfb5247ddd24878810cf169268f7e23",
+        "Global Net Name": "+5V",
+        "Footprint": ""
+      },
+      "description": "Power-5V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "c19033e4f560428090e4fc097513e5e3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1656577930",
+      "custom_tags": "[]"
+    },
+    "b0cb56e90df347779ff53ad6780cb160": {
+      "title": "PZ254V-11-04P",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 1x4P 直插 方针",
+        "Supplier Part": "C2691448",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "PZ254V-11-04P",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200309/C492403_F9F19131791D08044AD4F84F8E751A34.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a30bda512ed34af6822868f59010a95b",
+        "Designator": "H?",
+        "Footprint": "d1e5f7f5e3914a13b86b7c1f40b3d3e9",
+        "3D Model": "112f4d05e8d64e99ab9a333894bea4f9",
+        "3D Model Title": "HDR-TH_4P-P2.54-M-LI-1X4P",
+        "3D Model Transform": "399.999,104.7242,0,0,0,0,0,0,-118.11",
+        "Number of Rows": "单排",
+        "Number of Pins": "4",
+        "Pitch": "2.54mm",
+        "Pin Structure": "1x4P",
+        "Row Spacing": "-",
+        "Mounting Type": "直插",
+        "Circluar Pins/Square Pins": "方针",
+        "Current Rating (Max)": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "-",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:单排;总PIN位数:4;间距:2.54mm;插针结构:1x4P;行距:-;安装类型:直插;圆针/方针:方针;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度范围:-40℃~+105℃;颜色:黑色;"
+      },
+      "description": "排数:单排;总PIN位数:4;间距:2.54mm;插针结构:1x4P;行距:-;安装类型:直插;圆针/方针:方针;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度范围:-40℃~+105℃;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20210205/A58D248AB7CDBCB6B91801AEABC34C22.jpg"
+      ],
+      "source": "9b540f58c6ad4e26b03d1a299cfb1108|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654805255",
+      "custom_tags": "[\"连接器\",\"排针\"]"
+    },
+    "d989f64ebeec433f8a01b5d42fe1f291": {
+      "title": "PZ254V-11-01P",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 1x1P 直插 方针",
+        "Supplier Part": "C492400",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "PZ254V-11-01P",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200309/C492400_46876A5B545F5AE6B8D4A09C46E276E8.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "0cbd7e6a6a11477f9e1b2cb05872c0e4",
+        "Designator": "H?",
+        "Footprint": "22889abaed204c29bd3c4a8c44fb3280",
+        "3D Model": "efa57846279b44bfa0a28253a2c74e33",
+        "3D Model Title": "HDR2.54-M-LI-1X1P",
+        "3D Model Transform": "100,100,0,0,0,0,0,0,-118.11",
+        "Number of Rows": "单排",
+        "Number of Pins": "1",
+        "Pitch": "2.54mm",
+        "Pin Structure": "1x1P",
+        "Row Spacing": "-",
+        "Mounting Type": "直插",
+        "Circluar Pins/Square Pins": "方针",
+        "Current Rating (Max)": "-",
+        "Voltage Rating (Max)": "-",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "黄铜",
+        "Contact Plating": "-",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:单排;总PIN位数:1;间距:2.54mm;插针结构:1x1P;行距:-;安装类型:直插;圆针/方针:方针;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;颜色:黑色;"
+      },
+      "description": "排数:单排;总PIN位数:1;间距:2.54mm;插针结构:1x1P;行距:-;安装类型:直插;圆针/方针:方针;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20200325/BC9092D288A68546B3D910ABE586BA6D.jpg"
+      ],
+      "source": "f7e80b378da141e4a813ec091a6a6f22|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654805125",
+      "custom_tags": "[\"连接器\",\"排针\"]"
+    },
+    "5c7134cf57af4f59ada02418d00fd886": {
+      "title": "HX25003-4A",
+      "attributes": {
+        "LCSC Part Name": "XH 2.5mm 1x4P 直插",
+        "Supplier Part": "C442301",
+        "Manufacturer": "HX(红星)",
+        "Manufacturer Part": "HX25003-4A",
+        "Supplier Footprint": "插件,P=2.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20191028/C442301_3A3D3A554E5F0CBC5D03B496CD495BC6.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "ed7655cdec624085b9672ecfb6d0cccf",
+        "Designator": "CN?",
+        "Footprint": "fffd1f17b77c44d4bc7b0831cac94d01",
+        "3D Model": "7e25758d1952479b9526ef110128900c",
+        "3D Model Title": "CONN-TH_XH2.50-LI-4P",
+        "3D Model Transform": "492.125,224.409,0,0,0,0,0,-17.717,-118.11",
+        "Reference Series": "XH",
+        "Pitch": "2.5mm",
+        "Pins Structure": "1x4P",
+        "Number of Rows": "1",
+        "Number of PINs Per Row": "4",
+        "Row Spacing": "-",
+        "Gender": "公型插针",
+        "Mounting Style": "直插",
+        "Current Rating (Max)": "-",
+        "Operating Temperature Range": "-",
+        "Name": "={Manufacturer Part}",
+        "Description": "参考系列:XH;间距:2.5mm;插针结构:1x4P;排数:1;每排PIN数:4;行距:-;公母:公型插针;安装方式:直插;额定电流:-;工作温度范围:-;"
+      },
+      "description": "参考系列:XH;间距:2.5mm;插针结构:1x4P;排数:1;每排PIN数:4;行距:-;公母:公型插针;安装方式:直插;额定电流:-;工作温度范围:-;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20191128/E4229AA1D6DC4B41D308C0D505A07D46.jpg"
+      ],
+      "source": "a8e42407cfff40029ed91bd5956c2b28|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657707609",
+      "custom_tags": "[\"连接器\",\"线对板/线对线连接器\"]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "bad398d786ef49349533108fa5f91bd4",
+      "pcb": "7c19de2d858a49d4a0165ac812b93920"
+    }
+  },
+  "config": {
+    "title": "Board1",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "2.0.19.1.e63e9f"
+  }
+}

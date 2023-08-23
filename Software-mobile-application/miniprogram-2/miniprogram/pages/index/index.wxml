@@ -1,0 +1,116 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='bkg'>
+    <image src="../../images/bkg/background.jpg"> </image>
+  </view>
+  <view class="title">
+    <text decode="{{true}}" space="ensp">E-RACK 智能晾衣架 </text>
+  </view>
+  <image class="smallbkg" mode="widthFix" src="../../images/bkg/bkg.png"> </image>
+  <view class="info">
+    <!-- Display the Icon -->
+    <view class="icon">
+      <image mode="widthFix" src="../../images/icons/icon.png"> </image>
+    </view>
+    <view class='data'>
+      <image mode="widthFix" src="../../images/icons/temperature.png"> </image>
+      <text decode="{{true}}" space="ensp">温度/Temperature: {{temp}}  ℃ </text>
+      <view></view>
+      <image mode="widthFix" src="../../images/icons/humidity.png"> </image>
+      <text decode="{{true}}" space="ensp">湿度/Humidity：{{humid}}  %rh </text>
+      <view></view>
+      <image mode="widthFix" src="../../images/icons/time.png"> </image>
+      <text decode="{{true}}" space="ensp">预计晾干时间：{{hour}}  h </text>
+      <view></view>
+    </view>
+ 
+ 
+  </view>
+  <image class="smallbkg2"  mode="widthFix" src="../../images/bkg/bkg2.png"> </image>
+  <text class='comment1'>Data Collected From Sensors</text>
+  <text class='comment2'>Data Requested From AMAP</text>
+  <view class="weather">
+
+  <view class='icon2'>
+  <text decode="{{true}}" space="ensp">{{province}} {{city}}</text>
+  <image mode='widthFix' src="{{weather_src}}"></image>
+  <text decode="{{true}}" space="ensp"> {{weather}} </text>
+  </view>
+  <view class="panel"> 
+  <view class="wea_info">
+  <image mode="widthFix" src="../../images/icons/temperature.png"> </image>
+  <text decode="{{true}}" space="ensp">温度: {{temperature}} ℃ </text>
+  <image mode="widthFix" src="../../images/icons/humidity.png"> </image>
+  <text decode="{{true}}" space="ensp">湿度: {{humidity}} %rh</text>
+  </view>
+  <view class="wea_info">
+  <image mode="widthFix" src="../../images/icons/windspeed.png"> </image>
+  <text decode="{{true}}" space="ensp">风速: {{windspeed}} km/h </text>
+  </view>
+  <view class="wea_info">
+  <image mode="widthFix" src="../../images/icons/time.png"> </image>
+  <text decode="{{true}}" space="ensp">更新时间: {{time}}</text>
+  </view>
+  </view>
+  </view>
+  <view class='buttons'> 
+  <view class='mbutton'> 
+  <image mode='widthFix' src="../../images/buttons/button1.png"> </image>
+  <button style="width: 81rpx; height: 180rpx;" bindtap="out_rack">晾出</button>
+  </view>
+  <view class='mbutton'> 
+  <image mode='widthFix' src="../../images/buttons/button2.png"> </image>
+  <button style="width: 81rpx; height: 180rpx;" bindtap="in_rack">收回</button>
+  </view>
+  <view class='mbutton'> 
+  <image mode='widthFix' src="../../images/buttons/button3.png"> </image>
+  <button style="width: 81rpx; height: 180rpx;" bindtap="fresh">刷新</button>
+  </view>
+  </view>
+  <view class='rackinfo'>
+  <image mode="widthFix" src="../../images/info/chat.png"></image>
+  <text>您的晾衣架目前处于{{rack_state_text}}状态</text>
+  </view>
+  <image class="smallbkg3"  src="../../images/bkg/bkg3.jpg"> </image>
+  <view class="advice">
+  <image mode="widthFix" src="{{recommend_state_src}}">  </image>
+  <view class="advice_panel">
+  <text> {{recommend_state_text1}}</text>
+  <text> {{recommend_state_text2}}</text>
+  </view>
+  </view>
+
+  <view class="popup_box" wx:if="{{recommend_state=='2' && rack_state=='1' && pop_index!='1'}}">
+  <view class="popup-info">
+    <view class="popup_title">
+      <text class="line left-line"></text>
+      <text>提示信息</text>
+      <text class="line right-line"></text>
+    </view>
+    <text decode="{{true}}" space="ensp">根据晾衣架端传感器和天气信息综合分析，当前环境条件恶劣不适合晾晒衣物，系统将在 {{num}} s 后收回晾衣架.</text>
+  </view>
+  <view class="popup_buttons">
+      <view class="mybutton"><button bindtap="confirm"> 确认 </button></view>
+      <view class="mybutton"><button bindtap="cancel"> 取消 </button></view>
+    </view>
+  </view>
+
+<block wx:if="{{isShowConfirm}}">
+      <view class='toast-box'>
+        <view class='toastbg'></view>
+        <view class='showToast'>
+            <view class='toast-main'>
+                <view class='toast-input'>
+                    <input type='text'  bindinput='setValue' placeholder="请输入衣物含水重量（kg）" data-name='stuEidtName'></input>
+                </view>
+            </view>
+            <view class='toast-button'>
+                 <view class='button2'>
+                    <view  catchtap='confirmAcceptance'>确定</view>
+                </view>
+            </view>
+        </view>
+    </view>
+  </block>
+
+</view>
